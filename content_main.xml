@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:showIn="@layout/activity_main"
+        tools:context=".MainActivity">
+    <TableLayout
+            android:id="@+id/table_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:gravity="center">
+        <!-- Each TableRow is a row while TextView are items in the row -->
+	<TableRow android:id="@+id/row0" style="@style/TableRow">
+	    <TextView style="@style/Cell.Left" />
+            <TextView style="@style/Cell.Middle" />
+            <TextView style="@style/Cell.Middle" />
+            <TextView style="@style/Cell.Middle" />
+            <TextView style="@style/Cell.Middle" />
+            <TextView style="@style/Cell.Middle" />
+            <TextView style="@style/Cell.Right" />
+        </TableRow>
+        <TableRow android:id="@+id/row1" style="@style/TableRow">
+            <TextView style="@style/Cell.Left"/>
+            <TextView style="@style/Cell.Middle"/>
+            <TextView style="@style/Cell.Middle"/>
+            <TextView style="@style/Cell.Middle"/>
+            <TextView style="@style/Cell.Middle"/>
+            <TextView style="@style/Cell.Middle"/>
+            <TextView style="@style/Cell.Right"/>
+        </TableRow>
+        <TableRow android:id="@+id/row2" style="@style/TableRow">
+            <TextView style="@style/Cell.Left" />
+            <TextView style="@style/Cell.Middle" />
+            <TextView style="@style/Cell.Middle" />
+            <TextView style="@style/Cell.Middle" />
+            <TextView style="@style/Cell.Middle" />
+            <TextView style="@style/Cell.Middle" />
+            <TextView style="@style/Cell.Right" />
+        </TableRow>
+        <TableRow android:id="@+id/row3" style="@style/TableRow">
+            <TextView style="@style/Cell.Left" />
+            <TextView style="@style/Cell.Middle" />
+            <TextView style="@style/Cell.Middle" />
+            <TextView style="@style/Cell.Middle" />
+            <TextView style="@style/Cell.Middle" />
+            <TextView style="@style/Cell.Middle" />
+            <TextView style="@style/Cell.Right" />
+        </TableRow>
+        <TableRow android:id="@+id/row4" style="@style/TableRow">
+            <TextView style="@style/Cell.Left" />
+            <TextView style="@style/Cell.Middle" />
+            <TextView style="@style/Cell.Middle" />
+            <TextView style="@style/Cell.Middle" />
+            <TextView style="@style/Cell.Middle" />
+            <TextView style="@style/Cell.Middle" />
+            <TextView style="@style/Cell.Right" />
+        </TableRow>
+        <TableRow android:id="@+id/row5" style="@style/TableRow">
+            <TextView style="@style/Cell.Left" />
+            <TextView style="@style/Cell.Middle" />
+            <TextView style="@style/Cell.Middle" />
+            <TextView style="@style/Cell.Middle" />
+            <TextView style="@style/Cell.Middle" />
+            <TextView style="@style/Cell.Middle" />
+            <TextView style="@style/Cell.Right" />
+        </TableRow>
+    </TableLayout>
+</android.support.constraint.ConstraintLayout>
